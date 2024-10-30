@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="freeagent-logo" transform="translate(-367.000000, -222.000000)" fill="#7CC04A" fill-rule="nonzero">
+            <g id="Group" transform="translate(259.000000, 0.000000)">
+                <g id="24px-10" transform="translate(104.000000, 210.000000)">
+                    <path d="M12,14 C13.1,14 14,14.9 14,16 C14,17.1 13.1,18 12,18 C10.9,18 10,17.1 10,16 C10,14.9 10.9,14 12,14 Z M12,24 C14.7,24 17.8,25.29 18,26 L6,26 C6.23,25.28 9.31,24 12,24 Z M12,12 C9.79,12 8,13.79 8,16 C8,18.21 9.79,20 12,20 C14.21,20 16,18.21 16,16 C16,13.79 14.21,12 12,12 Z M12,22 C9.33,22 4,23.34 4,26 L4,28 L20,28 L20,26 C20,23.34 14.67,22 12,22 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

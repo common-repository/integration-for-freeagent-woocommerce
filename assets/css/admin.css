@@ -1,0 +1,517 @@
+.woocommerce table.form-table .wc-freeagent-section-auth {
+  margin: 0;
+  padding: 1em 0 0 0;
+  display: block;
+  max-width: 1200px; }
+  .woocommerce table.form-table .wc-freeagent-section-auth th, .woocommerce table.form-table .wc-freeagent-section-auth td {
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0; }
+  .woocommerce table.form-table .wc-freeagent-section-auth-step {
+    margin: 0 0 20px 0;
+    padding-left: 36px;
+    position: relative; }
+    .woocommerce table.form-table .wc-freeagent-section-auth-step-number {
+      position: absolute;
+      left: 0;
+      top: -2px;
+      width: 24px;
+      height: 24px;
+      color: #fff;
+      background: #007ABF;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 24px;
+      font-weight: bold;
+      font-size: 14px;
+      display: block; }
+    .woocommerce table.form-table .wc-freeagent-section-auth-step-title {
+      font-size: 1.1em;
+      margin: 0 0 0.5em 0; }
+    .woocommerce table.form-table .wc-freeagent-section-auth-step p {
+      margin: 0 0 1em 0;
+      padding: 0; }
+    .woocommerce table.form-table .wc-freeagent-section-auth-step div.validate {
+      animation: wc_freeagent_shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; }
+
+.woocommerce table.form-table .wc-freeagent-section-authenticated {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 0 0 1em 0;
+  padding: 20px;
+  display: block;
+  max-width: 1200px; }
+  .woocommerce table.form-table .wc-freeagent-section-authenticated-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center; }
+    @media only screen and (max-width: 960px) {
+      .woocommerce table.form-table .wc-freeagent-section-authenticated-flex {
+        flex-wrap: wrap; } }
+  .woocommerce table.form-table .wc-freeagent-section-authenticated-name {
+    padding: 15px 20px 15px 15px;
+    padding: 0 20px 0 49px;
+    min-height: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: url(../images/icon-active.svg) no-repeat 2px center;
+    text-align: left;
+    margin-right: auto; }
+    .woocommerce table.form-table .wc-freeagent-section-authenticated-name strong {
+      color: #007ABF;
+      font-size: 16px; }
+    .woocommerce table.form-table .wc-freeagent-section-authenticated-name small {
+      font-size: 12px;
+      color: #666; }
+  .woocommerce table.form-table .wc-freeagent-section-authenticated-errors {
+    padding: 15px 20px 15px 15px;
+    padding: 0 20px 0 49px;
+    min-height: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: url(../images/icon-error.svg) no-repeat 2px center;
+    text-align: left;
+    margin-right: auto; }
+    .woocommerce table.form-table .wc-freeagent-section-authenticated-errors p {
+      margin: 0 !important; }
+    .woocommerce table.form-table .wc-freeagent-section-authenticated-errors ul {
+      margin: 0;
+      padding: 10px 0;
+      padding-left: 20px; }
+      .woocommerce table.form-table .wc-freeagent-section-authenticated-errors ul li {
+        list-style-type: disc;
+        margin: 0; }
+  .woocommerce table.form-table .wc-freeagent-section-authenticated th, .woocommerce table.form-table .wc-freeagent-section-authenticated td {
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0; }
+
+.woocommerce table.form-table .wc-freeagent-section-pro {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 0 0 1em 0;
+  padding: 20px;
+  display: block;
+  max-width: 1200px; }
+  .woocommerce table.form-table .wc-freeagent-section-pro th, .woocommerce table.form-table .wc-freeagent-section-pro td {
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0; }
+  .woocommerce table.form-table .wc-freeagent-section-pro h3 {
+    font-size: 20px;
+    color: #007ABF;
+    margin: 0 0 10px 0; }
+  .woocommerce table.form-table .wc-freeagent-section-pro p {
+    color: #666;
+    margin: 0; }
+  .woocommerce table.form-table .wc-freeagent-section-pro fieldset {
+    display: block;
+    padding-top: 20px;
+    max-width: 360px; }
+    .woocommerce table.form-table .wc-freeagent-section-pro fieldset .notice {
+      margin: 0 0 10px 0; }
+    .woocommerce table.form-table .wc-freeagent-section-pro fieldset input.regular-input {
+      margin: 0 0 10px 0;
+      border-radius: 3px;
+      width: 100%; }
+  .woocommerce table.form-table .wc-freeagent-section-pro-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    @media only screen and (max-width: 960px) {
+      .woocommerce table.form-table .wc-freeagent-section-pro-flex {
+        flex-wrap: wrap; } }
+  .woocommerce table.form-table .wc-freeagent-section-pro.wc-freeagent-section-pro-active .wc-freeagent-section-pro-flex {
+    align-items: center; }
+  .woocommerce table.form-table .wc-freeagent-section-pro-cta {
+    width: 360px;
+    padding-left: 20px; }
+    @media only screen and (max-width: 960px) {
+      .woocommerce table.form-table .wc-freeagent-section-pro-cta {
+        border-top: 1px solid #DDDDDD;
+        padding: 20px 20px 0 20px;
+        margin: 20px -20px 0;
+        width: 100%; } }
+    .woocommerce table.form-table .wc-freeagent-section-pro-cta h4 {
+      font-size: 18px;
+      color: #007ABF;
+      margin: 0; }
+    .woocommerce table.form-table .wc-freeagent-section-pro-cta ul {
+      padding: 10px 0;
+      margin: 0; }
+      .woocommerce table.form-table .wc-freeagent-section-pro-cta ul li {
+        background: url(../images/icon-check.svg) no-repeat left center;
+        padding-left: 32px;
+        color: #666; }
+    .woocommerce table.form-table .wc-freeagent-section-pro-cta-button {
+      display: flex;
+      color: #666;
+      align-items: center; }
+      .woocommerce table.form-table .wc-freeagent-section-pro-cta-button a {
+        height: 40px;
+        border-radius: 5px;
+        background: #71B02F url(../images/icon-cart.svg) no-repeat 13px center;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        padding: 0 20px 0 48px;
+        display: block;
+        line-height: 40px;
+        white-space: nowrap;
+        font-size: 16px;
+        margin: 0 20px 0 0; }
+      .woocommerce table.form-table .wc-freeagent-section-pro-cta-button span small {
+        display: block;
+        font-size: 12px; }
+      .woocommerce table.form-table .wc-freeagent-section-pro-cta-button span strong {
+        font-size: 16px;
+        font-weight: bold;
+        white-space: nowrap; }
+  .woocommerce table.form-table .wc-freeagent-section-pro-activated {
+    padding: 15px 20px 15px 15px;
+    padding: 0 20px 0 49px;
+    min-height: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: url(../images/icon-active.svg) no-repeat 2px center;
+    text-align: left;
+    margin-right: auto; }
+    .woocommerce table.form-table .wc-freeagent-section-pro-activated strong {
+      color: #007ABF;
+      font-size: 16px; }
+    .woocommerce table.form-table .wc-freeagent-section-pro-activated small {
+      font-size: 12px;
+      color: #666; }
+    .woocommerce table.form-table .wc-freeagent-section-pro-activated-buttons {
+      display: flex;
+      align-items: center;
+      padding: 10px 0; }
+      .woocommerce table.form-table .wc-freeagent-section-pro-activated-buttons .button-primary {
+        margin-right: 15px; }
+  .woocommerce table.form-table .wc-freeagent-section-pro.wc-freeagent-section-pro-active {
+    padding: 10px 20px; }
+
+#woocommerce_wc_freeagent_section_auth + p,
+#woocommerce_wc_freeagent_section_invoice + p,
+#woocommerce_wc_freeagent_section_automatic + p {
+  max-width: 640px; }
+
+#woocommerce_wc_freeagent_section_invoice,
+#woocommerce_wc_freeagent_section_automatic,
+#woocommerce_wc_freeagent_section_coupons,
+#woocommerce_wc_freeagent_section_emails,
+#woocommerce_wc_freeagent_section_other {
+  border-top: 1px solid #ccc;
+  padding-top: 20px; }
+
+textarea#woocommerce_wc_freeagent_note,
+textarea#woocommerce_wc_freeagent_separate_coupon_desc,
+textarea#woocommerce_wc_freeagent_discount_note {
+  max-width: 400px; }
+
+span.wc-freeagent-settings-error {
+  display: block;
+  margin: 0 0 10px 0;
+  font-style: normal;
+  color: #F56E28; }
+  span.wc-freeagent-settings-error span {
+    color: #F56E28; }
+
+.woocommerce table.wc_input_table.wc-freeagent-payment-table {
+  max-width: 1000px; }
+.woocommerce table.wc_input_table td.wc-freeagent-settings-inner-table-title {
+  padding: 10px; }
+.woocommerce table.wc_input_table td.wc-freeagent-settings-inner-table-cb {
+  padding: 10px; }
+.woocommerce table.wc_input_table td.wc-freeagent-settings-inner-table-field input {
+  padding: 10px; }
+
+.wc_freeagent_pro_label {
+  display: none; }
+
+th .wc_freeagent_pro_label,
+.wc-settings-sub-title .wc_freeagent_pro_label {
+  display: inline-block;
+  font-style: normal;
+  background: #007ABF;
+  border-radius: 3px;
+  margin-left: 5px;
+  vertical-align: middle;
+  color: #fff;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 2px 5px;
+  margin-top: -3px; }
+
+.wc_freeagent_receipt_templates_preview_image {
+  width: 250px;
+  height: 210px;
+  background: url(../images/receipt-templates.png) no-repeat center; }
+
+.wc_freeagent_tiptip_wider {
+  max-width: 250px !important; }
+
+#wc_freeagent_metabox h2 {
+  background: #f3f9fc url(../images/logo-freeagent.svg) no-repeat 10px center;
+  background-size: auto 22px; }
+  #wc_freeagent_metabox h2 span {
+    opacity: 0;
+    visibility: hidden; }
+#wc_freeagent_metabox .inside {
+  padding: 0;
+  margin: 0; }
+
+.wc-freeagent-metabox-settings {
+  display: flex;
+  padding: 15px 10px;
+  text-decoration: none;
+  align-items: center;
+  color: inherit; }
+  .wc-freeagent-metabox-settings:hover {
+    text-decoration: none;
+    color: inherit; }
+  .wc-freeagent-metabox-settings span.dashicons {
+    color: #7CC04A; }
+.wc-freeagent-metabox-disabled {
+  padding: 15px 10px;
+  display: none; }
+  .wc-freeagent-metabox-disabled.show {
+    display: block; }
+  .wc-freeagent-metabox-disabled p {
+    margin: 0; }
+    .wc-freeagent-metabox-disabled p:first-child {
+      margin: 0 0 10px 0; }
+.wc-freeagent-metabox-rows {
+  margin: 0;
+  padding: 0; }
+  .wc-freeagent-metabox-rows-invoice {
+    display: none;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    background: #fff; }
+    .wc-freeagent-metabox-rows-invoice.show {
+      display: block; }
+    .wc-freeagent-metabox-rows-invoice a {
+      display: flex;
+      padding: 0 10px;
+      align-items: center;
+      justify-content: space-between;
+      color: #7CC04A;
+      text-decoration: none; }
+      .wc-freeagent-metabox-rows-invoice a:hover {
+        background: #F8FCF6; }
+      .wc-freeagent-metabox-rows-invoice a span {
+        color: #444;
+        font-weight: 500; }
+      .wc-freeagent-metabox-rows-invoice a strong {
+        font-weight: normal;
+        padding: 14px 22px 14px 10px;
+        text-decoration: underline;
+        background: url(../images/icon-invoice.svg) no-repeat right center; }
+    .wc-freeagent-metabox-rows-invoice-contact a strong {
+      background-image: url(../images/icon-contact.svg); }
+    .wc-freeagent-metabox-rows-invoice.wc-freeagent-metabox-invoices-estimate a strong {
+      background-image: url(../images/icon-estimate.svg); }
+    .wc-freeagent-metabox-rows-invoice.wc-freeagent-metabox-invoices-void a strong {
+      background-image: url(../images/icon-void.svg); }
+  .wc-freeagent-metabox-rows-data {
+    display: none;
+    padding: 14px 10px;
+    border-bottom: 1px solid #eee;
+    margin: 0; }
+    .wc-freeagent-metabox-rows-data-inside {
+      align-items: center;
+      justify-content: space-between;
+      display: flex; }
+    .wc-freeagent-metabox-rows-data.show {
+      display: block; }
+    .wc-freeagent-metabox-rows-data a:focus {
+      box-shadow: none; }
+    .wc-freeagent-metabox-rows-data a.completed {
+      color: #71B02F;
+      background: url(../images/icon-check.svg) no-repeat right center;
+      padding-right: 22px;
+      text-decoration: none;
+      font-weight: 500;
+      background-size: 15px auto;
+      cursor: default; }
+.wc-freeagent-metabox-auto-msg {
+  padding: 15px 10px;
+  border-bottom: 1px solid #eee;
+  display: none; }
+  .wc-freeagent-metabox-auto-msg.show {
+    display: block; }
+  .wc-freeagent-metabox-auto-msg-text {
+    align-items: center;
+    display: flex; }
+  .wc-freeagent-metabox-auto-msg .dashicons {
+    color: #bdbdbd; }
+  .wc-freeagent-metabox-auto-msg p {
+    margin: 0; }
+.wc-freeagent-metabox-generate {
+  display: none; }
+  .wc-freeagent-metabox-generate.show {
+    display: block; }
+  .wc-freeagent-metabox-generate-buttons {
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .wc-freeagent-metabox-generate-buttons a.button {
+      margin-left: auto; }
+  .wc-freeagent-metabox-generate-options {
+    margin: 0;
+    padding: 15px 10px 0; }
+    .wc-freeagent-metabox-generate-options li {
+      margin: 0 0 10px 0; }
+      .wc-freeagent-metabox-generate-options li label {
+        display: block; }
+      .wc-freeagent-metabox-generate-options li textarea, .wc-freeagent-metabox-generate-options li input[type="number"], .wc-freeagent-metabox-generate-options li input[type="text"] {
+        width: 100%; }
+    .wc-freeagent-metabox-generate-options-type label {
+      margin: 0 0 5px 0; }
+    .wc-freeagent-metabox-generate-options .wc_freeagent_invoice_toggle {
+      color: #a00; }
+.wc-freeagent-metabox-messages {
+  background: #cfede3;
+  padding: 0 2px 0 10px;
+  color: rgba(0, 0, 0, 0.7); }
+  .wc-freeagent-metabox-messages-error {
+    background: #eccccc; }
+  .wc-freeagent-metabox-messages-content {
+    display: flex; }
+  .wc-freeagent-metabox-messages a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #aa0000;
+    color: rgba(0, 0, 0, 0.5);
+    flex-grow: 0;
+    flex-shrink: 0;
+    outline: 0; }
+    .wc-freeagent-metabox-messages a:focus {
+      box-shadow: none; }
+  .wc-freeagent-metabox-messages ul {
+    margin: 0;
+    padding: 15px 0;
+    width: 100%; }
+    .wc-freeagent-metabox-messages ul li {
+      margin: 0;
+      padding: 0;
+      overflow-wrap: break-word; }
+
+.notice.wc-freeagent-notice {
+  position: relative; }
+  .notice.wc-freeagent-notice .wc-freeagent-wait {
+    cursor: wait;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1000;
+    top: 0;
+    left: 0; }
+
+.widefat .column-wc_actions a.button.wc-freeagent-button img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  width: 16px;
+  height: 16px;
+  display: block; }
+
+.wc-freeagent-print {
+  position: relative; }
+  .wc-freeagent-print p {
+    padding-left: 32px; }
+  .wc-freeagent-print p svg {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 8px; }
+
+#wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading > .ab-empty-item {
+  display: block; }
+  #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading > .ab-empty-item .loading,
+  #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading > .ab-empty-item .finished {
+    display: flex;
+    align-items: center; }
+  #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading > .ab-empty-item .loading em {
+    background: url(../images/icon-sync.svg) no-repeat center;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    background-size: 24px;
+    animation: wc_freeagent_spin 1s linear 0s infinite; }
+  #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading > .ab-empty-item .finished em {
+    background: url(../images/icon-yes.svg) no-repeat center;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    background-size: 24px; }
+  #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading > .ab-empty-item .finished {
+    display: none; }
+.admin-color-light #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading .ab-empty-item .loading em {
+  background-image: url(../images/icon-sync-dark.svg);
+  opacity: 0.5; }
+.admin-color-light #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading .ab-empty-item .finished em {
+  background-image: url(../images/icon-yes-dark.svg);
+  opacity: 0.5; }
+#wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading-msg .ab-item.ab-empty-item {
+  height: auto;
+  line-height: 18px; }
+  #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading-msg .ab-item.ab-empty-item .loading,
+  #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading-msg .ab-item.ab-empty-item .finished {
+    display: block; }
+  #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading-msg .ab-item.ab-empty-item span {
+    display: block;
+    width: 180px;
+    margin: 0 0 0px 0;
+    white-space: normal;
+    line-height: 18px; }
+  #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading-msg .ab-item.ab-empty-item a {
+    text-decoration: underline;
+    padding: 0; }
+  #wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading-msg .ab-item.ab-empty-item .finished {
+    display: none; }
+#wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading.finished > .ab-empty-item .loading {
+  display: none; }
+#wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading.finished > .ab-empty-item .finished {
+  display: flex; }
+#wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading.finished #wp-admin-bar-wc-freeagent-bg-generate-loading-msg .loading {
+  display: none; }
+#wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading.finished #wp-admin-bar-wc-freeagent-bg-generate-loading-msg .finished {
+  display: block; }
+#wpadminbar ul li#wp-admin-bar-wc-freeagent-bg-generate-loading.stopped {
+  display: none !important; }
+
+@keyframes wc_freeagent_spin {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes wc_freeagent_shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0); } }
+
+/*# sourceMappingURL=admin.css.map */
